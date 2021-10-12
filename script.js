@@ -21,19 +21,19 @@ const wizards = [
 for (hpchr of wizards){
     console.log(hpchr);
 }
-
+console.log(`========`);
 // 4a
 let harryPotterMovies = 0;
 console.log(harryPotterMovies);
 
 // 4b
-while (harryPotterMovies <= 8){
-    console.log(harryPotterMovies);
+while (harryPotterMovies < 8){
     harryPotterMovies++;
+    console.log(harryPotterMovies);
 }
 
 // 4c
-console.log(harryPotterMovies = 8);
+console.log(harryPotterMovies);
 
 // Bonus
 // 5a
@@ -52,5 +52,14 @@ const quote = [
     "A",
     "Wizard",
     "Harry"
-]
+];
 console.log(quote);
+
+// 6b
+const quote2 = [
+    `Yer` + ` A` + ` Wizard` +` Harry`
+]
+while (quote !== quote2) {
+    console.log(quote.join (` `));
+    break;
+}    
