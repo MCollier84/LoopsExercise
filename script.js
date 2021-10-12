@@ -34,3 +34,23 @@ while (harryPotterMovies <= 8){
 
 // 4c
 console.log(harryPotterMovies = 8);
+
+// Bonus
+// 5a
+const hogwartsHouses = 
+    `Gryffindor` + `Hufflepuff` + `Ravenclaw` + `Slytherin`;
+    
+
+// 5b
+for (houseName of hogwartsHouses) {
+    console.log(houseName);
+}
+
+// 6a
+const quote = [
+    "Yer",
+    "A",
+    "Wizard",
+    "Harry"
+]
+console.log(quote);
